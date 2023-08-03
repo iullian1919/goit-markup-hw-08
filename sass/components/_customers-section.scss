@@ -1,0 +1,94 @@
+/* Customers section */
+.customers-section .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.customers-section {
+  background-color: var(--customers-background-color);
+  padding-bottom: 94px;
+}
+
+.customers {
+  display: flex;
+  gap: 30px;
+  &__box {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--logo-icons);
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    &:hover,
+    &:focus {
+      color: var(--blue-color);
+      cursor: pointer;
+      border: 1px solid;
+      transition: var(--transition);
+    }
+  }
+
+  &__icon {
+    width: 106px;
+    height: 60px;
+    color: var(--logo-icons);
+    &:hover {
+      color: var(--blue-color);
+      transition: var(--transition);
+    }
+  }
+}
+
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru tableta */
+@media screen and (max-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (max-width: $desktop-breakpoint) {
+  /* Customers section */
+  .customers-section .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  .customers-section {
+    background-color: var(--customers-background-color);
+    padding-bottom: 94px;
+  }
+
+  .customers {
+    display: flex;
+    gap: 30px;
+    &__box {
+      width: 170px;
+      height: 92px;
+      border: 1px solid var(--logo-icons);
+      border-radius: 4px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      &:hover,
+      &:focus {
+        color: var(--blue-color);
+        cursor: pointer;
+        border: 1px solid;
+        transition: var(--transition);
+      }
+    }
+
+    &__icon {
+      width: 106px;
+      height: 60px;
+      color: var(--logo-icons);
+      &:hover {
+        color: var(--blue-color);
+        transition: var(--transition);
+      }
+    }
+  }
+}

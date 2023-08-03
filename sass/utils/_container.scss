@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+  max-width: 480px; // Mobile First, deci latimea maxima pana ajunge la maximul pentru mobil */
+}
+
+/* Stiluri pentru tableta */
+@media screen and (min-width: $mobile-breakpoint) {
+  .container {
+    max-width: 768px; /* Maximul pentru tableta */
+  }
+}
+
+/* Stiluri pentru desktop */
+@media screen and (min-width: $tablet-breakpoint) {
+  .container {
+    max-width: 1200px; /* Maximul pentru desktop */
+  }
+}

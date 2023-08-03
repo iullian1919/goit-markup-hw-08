@@ -1,0 +1,75 @@
+/* Responsive Breakpoints */
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1200px;
+
+:root {
+  /* Color settings */
+  --blue-color: #2196f3;
+  --btn-submit: #188ce8;
+  --btn-submit-hover: #1a78c5;
+  --hero-background-color: #2f303a;
+  --footer-background-color: #2f303a;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --red-color: #ff0000;
+  --gray-color: #757575;
+  --dark-gray-color: #212121;
+  --light-gray-color: #f5f4fa;
+  --footer-link-color: #ffffff99;
+  --social-icons: #afb1b8;
+  --logo-icons: #afb1b8;
+  --customers-background-color: #e5e5e5;
+  --border-page-header: #ececec;
+  --border-portfolio-card: #eeeeee;
+  --textarea-color: rgba(117, 117, 117, 0.5);
+
+  /* Font settings */
+  --text-font-family: "Roboto", sans-serif;
+  --font-logo: "Raleway", sans-serif;
+
+  /* Font sizes */
+  --font-size-small: 12px;
+  --font-size-h3: 14px;
+  --font-size-link: 14px;
+  --font-size-body: 14px;
+  --font-size-our-solutions: 16px;
+  --font-size-button: 16px;
+  --font-size-projects: 18px;
+  --font-size-text-overlay: 18px;
+  --font-size-logo-mobile: 24px;
+  --font-size-logo: 26px;
+  --font-size-h1-mobile: 26px;
+  --font-size-h2: 36px;
+  --font-size-h1: 44px;
+
+  /* Font weight */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-max-bold: 900;
+
+  /* Line height */
+  --line-height-body: 1, 14;
+  --line-height-second-title: 1, 16;
+  --line-height-logo: 1, 19;
+  --line-height-team: 1, 18;
+  --line-height-hero: 1, 36;
+  --line-height-text-overlay: 1, 55;
+  --line-height-button: 1, 62;
+  --line-height-text: 1, 71;
+  --line-height-btn-request: 1, 87;
+  --line-height-our-solutions: 1, 87;
+  --line-height-projects: 2;
+  --line-height-hero-mobile: 1, 61;
+
+  /* Letter-spacing */
+  --letter-spacing-body: 0.03em;
+  --letter-spacing-small: 0, 02em;
+  --letter-spacing-big: 0, 06em;
+  --letter-spacing-textarea: 0 12px;
+  --letter-spacing-hero-mobile: 1.56px;
+
+  /* Transitions */
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

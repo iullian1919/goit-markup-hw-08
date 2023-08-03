@@ -1,0 +1,22 @@
+body {
+  font-family: var(--text-font-family);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-body);
+  color: var(--dark-gray-color);
+}
+
+/* Stiluri pentru tableta */
+@media screen and (max-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (max-width: $desktop-breakpoint) {
+  body {
+    font-family: var(--text-font-family);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+    color: var(--dark-gray-color);
+  }
+}
