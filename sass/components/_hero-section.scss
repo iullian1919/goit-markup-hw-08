@@ -1,0 +1,51 @@
+/* Hero section*/
+.hero-section {
+  margin-bottom: 60px;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../images/hero-mobile-img@1x.jpg");
+  &__container {
+    text-align: center;
+    padding-bottom: 128px;
+  }
+  &__primary-title {
+    font-size: var(--font-size-h1-mobile);
+    font-weight: var(--font-weight-max-bold);
+    line-height: var(--line-height-hero-mobile);
+    letter-spacing: var(--letter-spacing-hero-mobile);
+    text-align: center;
+    color: var(--white-color);
+    padding: 118px 60px 30px 60px;
+  }
+}
+
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru tableta */
+@media screen and (max-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (min-width: $tablet-breakpoint) {
+  /* Hero section*/
+  .hero-section {
+    padding: 200px 0px;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url("../images/img-hero.jpg");
+    &__container {
+      text-align: center;
+    }
+    &__primary-title {
+      font-size: var(--font-size-h1);
+      font-weight: var(--font-weight-max-bold);
+      line-height: var(--line-height-hero);
+      letter-spacing: var(--letter-spacing-big);
+      text-align: center;
+      color: var(--white-color);
+      margin: 0 auto;
+      margin-bottom: 30px;
+      max-width: 696px;
+    }
+  }
+}

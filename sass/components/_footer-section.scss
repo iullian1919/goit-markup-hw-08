@@ -1,0 +1,148 @@
+/* Footer section */
+
+.footer {
+  background: var(--footer-background-color);
+  &__container {
+    display: flex;
+    max-width: 1170px;
+  }
+  &__contacts {
+    padding-top: 60px;
+  }
+  &__address {
+    font-style: normal;
+    color: var(--white-color);
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+  &__contacts-list li {
+    margin-bottom: 12px;
+  }
+  &__icons-container {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  &__social-links {
+    display: inline-block;
+    padding-top: 72px;
+    padding-left: 106px;
+    padding-right: 93px;
+  }
+  &__social-links-text {
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding-bottom: 20px;
+  }
+  &__icon {
+    color: var(--white-color);
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    &:hover,
+    &:focus {
+      background-color: var(--blue-color);
+      cursor: pointer;
+      border-radius: 50%;
+      transition: var(--transition);
+    }
+  }
+}
+
+.link--footer {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--footer-link-color);
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+    transition: var(--transition);
+  }
+}
+
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru tableta */
+@media screen and (max-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (max-width: $desktop-breakpoint) {
+  /* Footer section */
+
+  .footer {
+    background: var(--footer-background-color);
+    &__container {
+      display: flex;
+      max-width: 1170px;
+    }
+    &__contacts {
+      padding-top: 60px;
+    }
+    &__address {
+      font-style: normal;
+      color: var(--white-color);
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    &__contacts-list li {
+      margin-bottom: 12px;
+    }
+    &__icons-container {
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    &__social-links {
+      display: inline-block;
+      padding-top: 72px;
+      padding-left: 106px;
+      padding-right: 93px;
+    }
+    &__social-links-text {
+      font-weight: var(--font-weight-bold);
+      text-transform: uppercase;
+      color: var(--white-color);
+      padding-bottom: 20px;
+    }
+    &__icon {
+      color: var(--white-color);
+      height: 44px;
+      width: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      &:hover,
+      &:focus {
+        background-color: var(--blue-color);
+        cursor: pointer;
+        border-radius: 50%;
+        transition: var(--transition);
+      }
+    }
+  }
+
+  .link--footer {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--footer-link-color);
+    &:hover,
+    &:focus {
+      color: var(--blue-color);
+      transition: var(--transition);
+    }
+  }
+}

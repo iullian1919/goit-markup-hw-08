@@ -1,0 +1,29 @@
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru tableta */
+@media screen and (min-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (min-width: $tablet-breakpoint) {
+  .page-header {
+    border: 1px solid var(--border-page-header);
+    max-width: 1600px;
+    &__container {
+      display: flex;
+      max-width: 1170px;
+    }
+    & a:hover,
+    & a:focus {
+      color: var(--blue-color);
+      transition: var(--transition);
+    }
+    & a {
+      text-decoration: none;
+      font-weight: var(--font-weight-medium);
+      letter-spacing: var(--letter-spacing-small);
+    }
+  }
+}

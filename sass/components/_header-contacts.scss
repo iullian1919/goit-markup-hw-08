@@ -1,0 +1,67 @@
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+  .header-contacts {
+    display: none;
+    margin-left: auto;
+    align-items: center;
+    & svg:hover,
+    & svg:focus {
+      color: var(--blue-color);
+      transition: var(--transition);
+    }
+    &__envelope {
+      height: 15px;
+      width: 16px;
+      color: var(--gray-color);
+    }
+    &__smartphone {
+      height: 16px;
+      width: 10px;
+      color: var(--gray-color);
+    }
+  }
+
+  .link--header {
+    display: flex;
+    gap: 10px;
+    color: var(--gray-color);
+    margin: 0px 0px 0px 40px;
+    padding: 32px 0px;
+  }
+}
+
+/* Stiluri pentru tableta */
+@media screen and (min-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (min-width: $desktop-breakpoint) {
+  .header-contacts {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    & svg:hover,
+    & svg:focus {
+      color: var(--blue-color);
+      transition: var(--transition);
+    }
+    &__envelope {
+      height: 15px;
+      width: 16px;
+      color: var(--gray-color);
+    }
+    &__smartphone {
+      height: 16px;
+      width: 10px;
+      color: var(--gray-color);
+    }
+  }
+
+  .link--header {
+    display: flex;
+    gap: 10px;
+    color: var(--gray-color);
+    margin: 0px 0px 0px 40px;
+    padding: 32px 0px;
+  }
+}

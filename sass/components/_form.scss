@@ -1,0 +1,156 @@
+/* Formular */
+.information-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  &:focus-within {
+    color: var(--blue-color);
+  }
+  &:focus-within .form-input {
+    border: 1px solid var(--blue-color);
+  }
+
+  & + & {
+    margin-top: 10px;
+  }
+
+  /* Label text*/
+  & > *:nth-child(1) {
+    font-size: var(--font-size-small);
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: var(--gray-color);
+  }
+
+  /* Input */
+  & > *:nth-child(2) {
+    padding: 12px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+
+  & a {
+    text-decoration: none;
+  }
+
+  & input {
+    padding-left: 40px;
+  }
+}
+.form-checkbox {
+  flex-direction: row;
+  gap: 8px;
+  & > *:nth-child(2) {
+    padding: 0;
+    border: none;
+  }
+}
+.form-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form .input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+}
+
+.textarea {
+  padding-left: 16px;
+}
+
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru tableta */
+@media screen and (max-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (min-width: $desktop-breakpoint) {
+  /* Formular */
+  .information-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    &:focus-within {
+      color: var(--blue-color);
+    }
+    &:focus-within .form-input {
+      border: 1px solid var(--blue-color);
+    }
+
+    & + & {
+      margin-top: 10px;
+    }
+
+    /* Label text*/
+    & > *:nth-child(1) {
+      font-size: var(--font-size-small);
+      line-height: 14px;
+      letter-spacing: 0.01em;
+      color: var(--gray-color);
+    }
+
+    /* Input */
+    & > *:nth-child(2) {
+      padding: 12px 16px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+    }
+
+    & a {
+      text-decoration: none;
+    }
+
+    & input {
+      padding-left: 40px;
+    }
+  }
+  .form-checkbox {
+    flex-direction: row;
+    gap: 8px;
+    & > *:nth-child(2) {
+      padding: 0;
+      border: none;
+    }
+  }
+  .form-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .form .input-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+  }
+
+  .textarea {
+    padding-left: 16px;
+  }
+}

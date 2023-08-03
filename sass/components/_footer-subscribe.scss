@@ -1,0 +1,72 @@
+/* Footer subscribe */
+
+.footer-subscribe {
+  padding-top: 72px;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  color: #ffffff;
+  &__input {
+    display: flex;
+    padding-top: 20px;
+    gap: 12px;
+    padding-bottom: 93px;
+  }
+  &__input-mail {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    top: 50%;
+    padding-top: 15px;
+    padding-left: 16px;
+    background: var(--footer-background-color);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    resize: none;
+  }
+}
+
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru tableta */
+@media screen and (max-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (max-width: $desktop-breakpoint) {
+  /* Footer subscribe */
+
+  .footer-subscribe {
+    padding-top: 72px;
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    color: #ffffff;
+    &__input {
+      display: flex;
+      padding-top: 20px;
+      gap: 12px;
+      padding-bottom: 93px;
+    }
+    &__input-mail {
+      width: 358px;
+      height: 50px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+      border-radius: 4px;
+      top: 50%;
+      padding-top: 15px;
+      padding-left: 16px;
+      background: var(--footer-background-color);
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.03em;
+      resize: none;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+  .navigation {
+    display: flex;
+    display: none;
+    .link {
+      color: var(--color-dark);
+      font-weight: var(--font-weight-bold);
+      text-decoration: none;
+      margin: 0px 50px 0px 0px;
+      padding: 32px 0px;
+      display: block;
+      position: relative;
+      &:hover,
+      &:focus {
+        color: var(--blue-color);
+        transition: var(--transition);
+      }
+      &:hover::after,
+      &:focus::after {
+        display: inline;
+        transition: var(--transition);
+      }
+      &::after {
+        display: none;
+        position: absolute;
+        content: "";
+        background: var(--blue-color);
+        border-radius: 2px;
+        width: 100%;
+        height: 3px;
+        bottom: -1px;
+        left: 0;
+      }
+    }
+  }
+}
+
+/* Stiluri pentru tableta */
+@media screen and (min-width: $tablet-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (min-width: $desktop-breakpoint) {
+  .navigation {
+    display: flex;
+    .link {
+      color: var(--color-dark);
+      font-weight: var(--font-weight-bold);
+      text-decoration: none;
+      margin: 0px 50px 0px 0px;
+      padding: 32px 0px;
+      display: block;
+      position: relative;
+      &:hover,
+      &:focus {
+        color: var(--blue-color);
+        transition: var(--transition);
+      }
+      &:hover::after,
+      &:focus::after {
+        display: inline;
+        transition: var(--transition);
+      }
+      &::after {
+        display: none;
+        position: absolute;
+        content: "";
+        background: var(--blue-color);
+        border-radius: 2px;
+        width: 100%;
+        height: 3px;
+        bottom: -1px;
+        left: 0;
+      }
+    }
+  }
+}

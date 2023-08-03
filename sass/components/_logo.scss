@@ -1,0 +1,77 @@
+/* Stiluri pentru mobil */
+@media screen and (max-width: $mobile-breakpoint) {
+  /* Mobile-logo */
+  .logo {
+    font-family: var(--font-logo);
+    font-size: var(--font-size-logo-mobile);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-logo);
+    cursor: pointer;
+    color: var(--black-color);
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-dark);
+    &__active {
+      cursor: pointer;
+      color: var(--blue-color);
+      transition: var(--transition);
+    }
+
+    /* Footer-logo */
+
+    &__accent {
+      cursor: pointer;
+      color: var(--white-color);
+      &:hover,
+      &:focus {
+        color: var(--blue-color);
+        transition: var(--transition);
+      }
+    }
+  }
+  .logo-header {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+}
+
+/* Stiluri pentru tableta */
+@media screen and (min-width: $mobile-breakpoint) {
+}
+
+/* Stiluri pentru desktop */
+@media screen and (min-width: $desktop-breakpoint) {
+  .logo {
+    font-family: var(--font-logo);
+    font-size: var(--font-size-logo);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-logo);
+    cursor: pointer;
+    color: var(--black-color);
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-dark);
+    &__active {
+      cursor: pointer;
+      color: var(--blue-color);
+      transition: var(--transition);
+    }
+
+    /* Footer-logo */
+
+    &__accent {
+      cursor: pointer;
+      color: var(--white-color);
+      &:hover,
+      &:focus {
+        color: var(--blue-color);
+        transition: var(--transition);
+      }
+    }
+  }
+  .logo-header {
+    margin-right: 93px;
+    padding: 24px 0 25px 0;
+  }
+}
